@@ -1,0 +1,13 @@
+.Dashboard_title {
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border-bottom: 2px solid #b2b3;
+}
+
+.Dashboard_title .link__orders {
+    list-style: none;
+    text-decoration: none;
+}

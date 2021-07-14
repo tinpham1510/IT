@@ -1,0 +1,95 @@
+.popular .popular__product {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    max-width: 300px;
+    color: black;
+}
+
+.popular .container {
+    background-color: whitesmoke;
+}
+
+.popular .container .card {
+    margin: 20px 0px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    font-family: "Poppins";
+    transition: 0.5s;
+    text-decoration: none;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.popular .container .card:hover {
+    transform: translateY(-1em);
+    box-shadow: 2px 2px 6px 2px;
+    cursor: pointer;
+}
+
+.popular .container .slick-arrow {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    height: 100px;
+}
+
+.btbuy {
+    background: linear-gradient(to right, #f030a7, #f03061, #f03061);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 45cm;
+    }
+    .btbuy {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .product-list {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 125cm;
+    }
+}
+
+.container a {
+    text-decoration: none;
+}

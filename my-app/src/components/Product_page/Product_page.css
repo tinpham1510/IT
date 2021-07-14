@@ -1,0 +1,34 @@
+.product_list {
+    background-color: #dfe6e9;
+    padding: 3em;
+    text-align: center;
+}
+
+.product_container .card .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.product_container .card img {
+    max-width: 430%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product_container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+.product_container .card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.product_container a {
+    text-decoration: none;
+}

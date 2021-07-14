@@ -1,0 +1,19 @@
+.Total__orders th {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.Total__orders thead {
+    background-color: #3bb3bb;
+    color: white;
+    text-align: center;
+}
+
+.Total__orders tbody {
+    font-size: 15px;
+}
+
+.Total__orders td {
+    text-align: center;
+}
